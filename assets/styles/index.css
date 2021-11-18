@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: serif;
+    height: 100vh;
+    gap:30px;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.726) 0px 4px 12px;
+    border-radius: 9px;
+    margin-top: 200px;
+    width: 300px;
+    overflow: hidden;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+}
+
+.card .card--img {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 2px #04eeff;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: all 0.2s ease-out;
+}
+.card .card--img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+}
+
+.card .card--img:hover {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0px;
+}
+
+.card .name {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card .job {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card ul {
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card ul .social-link {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-out;
+    font-size: 26px;
+}
+.card ul .social-link:hover {
+    color: #0d5fa3;
+}
+.text-center {
+    text-align: center;
+}
+.card .contact-link {
+    border-radius: 9px;
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #0d79d1;
+    box-shadow: rgba(99, 99, 99, 0.658) 0px 2px 8px 0px;
+    transition: all 0.2s ease-out;
+    text-align: center;
+}
+.card .contact-link:hover {
+    background-color: #0d5fa3;
+}
