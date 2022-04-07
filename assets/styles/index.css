@@ -78,7 +78,8 @@ body.dark {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
+    max-width: 600px;
+    width: calc(100% - 20px);
     border: solid 1px var(--dark);
 }
 
