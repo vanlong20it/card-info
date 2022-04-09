@@ -79,12 +79,13 @@ body.dark {
 }
 
 a {
-    color: #000;
+    transition: all .3s ease-out;
+    color: var(--dark);
     text-decoration: none;
 }
 
 a:visited {
-    color: #000;
+    color: var(--dark);
 }
 
 .card {
